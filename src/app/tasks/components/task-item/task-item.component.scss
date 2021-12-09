@@ -1,0 +1,18 @@
+@import "src/styles";
+
+.taskItem {
+  @include flex-start-center-row();
+  margin-bottom: 1rem;
+  input {
+    margin-right: 1rem;
+  }
+  p{
+    margin: 0;
+    font-size: 1.2rem;
+    color: $off-white;
+    cursor: pointer;
+    &:hover {
+      color: $text-color-base;
+    }
+  }
+}

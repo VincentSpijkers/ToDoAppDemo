@@ -1,0 +1,4 @@
+<div class="taskItem">
+  <input type="checkbox" (click)="updateTask(task)" [checked]="task.finished">
+  <p [style.text-decoration]="task.finished && 'line-through'" >{{task.name}}</p>
+</div>

@@ -1,0 +1,18 @@
+<div class="mainContainer">
+
+  <div class="collections">
+    <h1>Collections</h1>
+    <hr class="collections--underline"/>
+
+    <div *ngFor="let collection of collections"
+         class="collection--items"
+         [routerLink]="['collection', collection.id]">
+      <p>{{collection.name}}</p>
+    </div>
+
+  </div>
+
+  <div class="tasks">
+    <router-outlet></router-outlet>
+  </div>
+</div>

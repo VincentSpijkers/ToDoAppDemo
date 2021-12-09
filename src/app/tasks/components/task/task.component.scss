@@ -1,0 +1,18 @@
+@import "src/styles";
+
+.tasks {
+  margin: 3rem;
+  user-select: none;
+
+  .tasks--container {
+    margin-bottom: 2rem;
+  }
+
+  .task--button-add{
+    cursor: pointer;
+    color: $off-white;
+    &:hover{
+      color: $add-task-color;
+    }
+  }
+}

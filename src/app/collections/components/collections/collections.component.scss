@@ -1,0 +1,46 @@
+@import "src/styles";
+
+.mainContainer {
+  @include flex-center-center-row();
+  width: 100%;
+  height: 100%;
+}
+
+.collections {
+  @include flex-start-center-column();
+  background-color: $base-color;
+  min-width: 20%;
+  height: 100vh;
+  user-select: none;
+  h1 {
+    color: $text-color-base;
+  }
+  .collections--underline {
+    width: 100%;
+    margin-top: 0;
+    border-color: $text-color-base;
+  }
+  .collection--items{
+    width: 90%;
+    cursor: pointer;
+    p{
+      font-size: 1.5rem;
+      color: $text-color-base;
+      text-align: left;
+      margin-left: 2rem;
+    }
+  }
+  .collection--items:hover{
+    background-color: $category-item-hover;
+    border-radius: 0.2rem;
+    p {
+      color: $off-white;
+    }
+  }
+}
+
+.tasks {
+  background-color: $task-background-color;
+  min-width: 80%;
+  height: 100vh;
+}

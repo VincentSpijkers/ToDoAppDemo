@@ -1,0 +1,32 @@
+[
+  {
+    "name": "werk",
+    "tasks": [
+      {
+        "name": "IPWRC demo maken",
+        "id": 1,
+        "finished": false
+      },
+      {
+        "name": "ioo1 geven",
+        "id": 2,
+        "finished": false
+      }
+    ]
+  },
+  {
+    "name": "thuis",
+    "tasks": [
+      {
+        "name": "Eten maken",
+        "id": 3,
+        "finished": false
+      },
+      {
+        "name": "Pokemon spelen",
+        "id": 4,
+        "finished": false
+      }
+    ]
+  }
+]
